@@ -6,7 +6,7 @@ package com.program.parking;
 class Car extends Transport {
     private int quantityDoors;
 
-    public Car(String color, int number, int quantityDoors) {
+    public Car(String color, String number, int quantityDoors) {
         super(color, number);
         this.quantityDoors = quantityDoors;
     }

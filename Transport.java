@@ -5,18 +5,18 @@ package com.program.parking;
  */
 class Transport {
 
-    private final String DEFAULT_COLOR = "black";
-    private final int DEFAULT_NUMBER = 000;
+    private final String DEFAULT_COLOR = "Черный";
+    private final String DEFAULT_NUMBER = "А001АА";
 
     protected String color;
-    protected int number;
+    protected String number;
 
     public Transport(){
         this.color = DEFAULT_COLOR;
         this.number = DEFAULT_NUMBER;
     }
 
-    public Transport(String color, int number) {
+    public Transport(String color, String number) {
         this.number = number;
         this.color = color;
     }
@@ -34,11 +34,11 @@ class Transport {
         this.color = color;
     }
 
-    public int getNumber() {
+    public String getNumber() {
         return number;
     }
 
-    public void setNumber(int number) {
+    public void setNumber(String number) {
         this.number = number;
     }
 

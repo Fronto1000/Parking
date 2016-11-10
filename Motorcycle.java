@@ -6,7 +6,7 @@ package com.program.parking;
 class Motorcycle extends Transport {
     private String type;
 
-    public Motorcycle(String color, int number, String type) {
+    public Motorcycle(String color, String number, String type) {
         super(color, number);
         this.type = type;
     }
